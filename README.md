@@ -1,4 +1,4 @@
-# jQuery MODULENAME_UPPERCASE Plugin
+# jQuery FlowText Plugin
 jQuery plugin for responsive font-size
 
 ## Usage
@@ -12,92 +12,63 @@ jQuery plugin for responsive font-size
 2. Include plugin's code:
 
 	```html
-	<script src="path/to/jquery.MODULENAME_LOWERCASE.js"></script>
+	<script src="path/to/jquery.flowtext.js"></script>
 	```
 
 3. Call the plugin:
 
 	```javascript
 	// Default configuration
-	$('.MODULENAME_LOWERCASE-element').MODULENAME_LOWERCASE();
+	$('.flowtext-element').flowtext();
 
 	// Custom configuration
-	$('.MODULENAME_LOWERCASE-element').MODULENAME_LOWERCASE({
+	$('.flowtext-element').flowtext({
 		// configd
 	});
 	```
 
 ## Downloads
 
-* [Source](https://raw.githubusercontent.com/libeo-vtt/jquery-MODULENAME_LOWERCASE/master/dist/jquery.MODULENAME_LOWERCASE.js)
-* [Minified version](https://raw.githubusercontent.com/libeo-vtt/jquery-MODULENAME_LOWERCASE/master/dist/jquery.MODULENAME_LOWERCASE.min.js)
+* [Source](https://raw.githubusercontent.com/libeo-vtt/jquery-flowtext/master/dist/jquery.flowtext.js)
+* [Minified version](https://raw.githubusercontent.com/libeo-vtt/jquery-flowtext/master/dist/jquery.flowtext.min.js)
 
 ## Configuration
 
-#### `configuration1`
+#### `minFontSize`
 
 > **Type:** Integer<br>
-**Default value:** 4
+**Default value:** 16
 
-configuration1 description
+Minimum flowtext font-size
 
 ---
 
-#### `configuration2`
+#### `maxFontSize`
 
 > **Type:** Integer<br>
 **Default value:** 20
 
-configuration2 description
+Maximum flowtext font-size
 
 ---
 
-### Callbacks
+#### `minScreenWidth`
 
-#### `callback1`
+> **Type:** Integer<br>
+**Default value:** 320
 
-> **Type:** Function<br>
-**Default value:** $.noop
-
-callback1 description
+Minimum screen width for flowtext
 
 ---
 
-### Public Methods (API)
+#### `maxScreenWidth`
 
-#### `.method1()`
+> **Type:** Integer<br>
+**Default value:** 1024
 
-#### `.method2()`
-
-```javascript
-var MODULENAME_LOWERCASE = $('.element').MODULENAME_LOWERCASE();
-
-MODULENAME_LOWERCASE.method1();
-MODULENAME_LOWERCASE.method2();
-```
+Maxiumum screen width for flowtext
 
 ---
-
-### Labels
-
-```javascript
-labels: {
-	label1: 'label1',
-	label2: 'label2'
-}
-```
-
-### Classes
-
-```javascript
-classes: {
-	class1: 'class1',
-	class2: 'class2',
-	states: {
-	    active: 'is-active'
-	}
-}
-```
 
 ## History
 
