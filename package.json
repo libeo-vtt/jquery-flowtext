@@ -9,7 +9,7 @@
     "url": "http://www.libeo.com"
   },
   "dependencies": {
-    "jquery": ">=2.0.0"
+    "jquery": ">=3.0.0"
   },
   "devDependencies": {
     "commander": "^2.9.0",
