@@ -23,7 +23,10 @@ jQuery plugin for responsive font-size
 
 	// Custom configuration
 	$('.flowtext-element').flowtext({
-		// configd
+		minFontSize: 16,
+		maxFontSize: 20,
+		minScreenWidth: 320,
+		maxScreenWidth: 1024
 	});
 	```
 
